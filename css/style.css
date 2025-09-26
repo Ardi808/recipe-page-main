@@ -1,0 +1,189 @@
+:root {
+  --primary-color: #F3E5D8;
+  --secondary-color: rgb(255, 255, 255);
+  --text-black: rgb(0, 0, 0);
+  --text-abu-abu: hsl(24, 5%, 18%);
+  --text-ungu: hsl(332, 51%, 32%);
+  --text-coklat: hsl(14, 45%, 36%);
+  --bg-pink: #FFF7FC;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: center;
+}
+.container {
+  padding: 0 40px 40px 40px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  width: 100%;
+  background-color: var(--secondary-color);
+}
+.hero-image img{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.hero-image {
+  margin: 0 -40px 0 -40px;
+}
+.main h1 {
+  color: var(--text-black);
+  font-family: young-serif;
+  font-size: 2.5rem;
+  margin: 1em 0;
+  font-weight: 500;
+}
+.main p {
+  color: var(--text-abu-abu);
+  font-family: Outfit-Regular;
+  margin-top: -20px;
+  word-spacing: .2rem;
+}
+.preparation {
+  background-color: var(--bg-pink);
+  border-radius: 15px;
+  margin: 20px 0;
+  padding: 1.5em;
+  padding-top: .5rem;
+  box-sizing: border-box;
+}
+.preparation h3 {
+  color: var(--text-ungu);
+  font-family: Outfit-Bold;
+  font-size: 1.3rem;
+}
+.preparation ul li {
+  line-height: 2em;
+  margin-left: -20px;
+  padding-left: 20px;
+  font-family: Outfit-Regular;
+  font-size: 1rem;
+  color: var(--text-abu-abu);
+}
+.preparation ul li::marker {
+  color: var(--text-ungu);
+}
+.ingredients {
+  border-bottom: 2px solid rgba(158, 158, 158, 0.249);
+}
+.ingredients h2 {
+  color: var(--text-coklat);
+  font-size: 2rem;
+  font-family: young-serif;
+  font-weight: 100;
+}
+.ingredients ul li {
+  font-family: Outfit-Regular;
+  font-size: 1rem;
+  line-height: 2rem;
+  margin-left: -20px;
+  padding-left: 20px;
+  color: var(--text-abu-abu);
+}
+.ingredients ul li::marker {
+  color: var(--text-coklat);
+}
+
+.instuctions h2 {
+  color: var(--text-coklat);
+  font-size: 2rem;
+  font-family: young-serif;
+  font-weight: 100;
+}
+.instuctions ol li {
+  font-family: Outfit-Regular;
+  font-size: 1rem;
+  line-height: 2rem;
+  margin-left: -20px;
+  padding-left: 20px;
+  color: var(--text-abu-abu);
+}
+.instuctions ol li::marker {
+  color: var(--text-coklat);
+}
+.nutrition h2 {
+  color: var(--text-coklat);
+  font-size: 2rem;
+  font-family: young-serif;
+  font-weight: 100;
+}
+.nutrition p {
+  color: var(--text-abu-abu);
+  font-family: Outfit-Regular;
+  margin-top: -20px;
+  word-spacing: .2rem;
+}
+.nutrition .grid {
+  color: var(--text-abu-abu);
+  font-family: Outfit-Regular;
+  word-spacing: .2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.nutrition .grid .table {
+  padding: .5em;
+  margin-bottom: 1em;
+  border-bottom: 1px solid rgba(158, 158, 158, 0.249);;
+}
+.nutrition .grid .table:nth-child(even) {
+  color: var(--text-coklat);
+  font-weight: 700;
+}
+.attribution, .attribution a {
+  font-family: Outfit-Regular;
+  text-decoration: none;
+  color: var(--text-abu-abu);
+}
+.attribution a {
+  color: var(--text-coklat);
+  font-weight: 700;
+  padding: 5px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  line-height: 2em;
+  transition: .3s;
+}
+.attribution a:hover {
+  background-color: var(--text-coklat);
+  color: var(--primary-color);
+}
+
+@media screen and (min-width: 576px) {
+  .container {
+  margin: 130px;
+  padding: 40px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  width: 52%;
+  background-color: var(--secondary-color);
+}
+.hero-image img{
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+.hero-image {
+  margin: 0;
+}
+}
+
+
+@font-face {
+  font-family: Outfit-Black;
+  src: url(../assets/fonts/outfit/static/Outfit-Black.ttf);
+}
+@font-face {
+  font-family: Outfit-Bold;
+  src: url(../assets/fonts/outfit/static/Outfit-Bold.ttf);
+}
+@font-face {
+  font-family: Outfit-Regular;
+  src: url(../assets/fonts/outfit/static/Outfit-Regular.ttf);
+}
+@font-face {
+  font-family: young-serif;
+  src: url(../assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}

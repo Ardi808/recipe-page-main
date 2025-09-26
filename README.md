@@ -54,8 +54,15 @@ Through this challenge I learned how to:
 - Combine **Flexbox** (for centering) and **Grid** (for nutrition table) effectively.
 - Create a **responsive design** using a mobile-first workflow and media queries.
 
-```css
-.nutrition .grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
+### Continued development
+
+For future projects, I want to:
+
+- Improve accessibility (ARIA labels, better alt text for images).
+- Explore more responsive typography with clamp().
+- Add subtle animations or transitions to make the UI more interactive.
+
+## Author
+
+- GitHub - Ardi808
+- Frontend Mentor - @Ardi808

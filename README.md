@@ -30,8 +30,8 @@ _Add a screenshot of your solution here._
 
 ### Links
 
-- Solution URL: [Add solution URL here]()
-- Live Site URL: [Add live site URL here](https://ardi808.github.io/recipe-page-main/)
+- Solution URL: (-)
+- Live Site URL: (https://ardi808.github.io/recipe-page-main/)
 
 ## My process
 

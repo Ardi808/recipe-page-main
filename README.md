@@ -30,8 +30,8 @@ _Add a screenshot of your solution here._
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/your-solution-url)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here]()
+- Live Site URL: [Add live site URL here](https://ardi808.github.io/recipe-page-main/)
 
 ## My process
 

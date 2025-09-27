@@ -24,13 +24,12 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 **Mobile view**
 ![](assets/screenshot/screenshot-mobile.png)
 
-
-![](./screenshot.png)  
-_Add a screenshot of your solution here._
+**Screenshot solution**
+![](assets/screenshot/Screenshot%202025-09-27%20193331.png)  
 
 ### Links
 
-- Solution URL: (-)
+- Solution URL: (https://www.frontendmentor.io/solutions/recipe-page-using-html5-css-flex-and-css-grid-sjGmb-LwRE)
 - Live Site URL: (https://ardi808.github.io/recipe-page-main/)
 
 ## My process
